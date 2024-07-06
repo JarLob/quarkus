@@ -16,7 +16,7 @@ jobs:
         run: sleep 1
   build-doc:
     name: "Documentation Build"
-    timeout-minutes: 60
+    timeout-minutes: 90
     runs-on: ubuntu-latest
     # Skip main in forks
     steps:
